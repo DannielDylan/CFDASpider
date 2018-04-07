@@ -27,6 +27,7 @@ DBKWARGS = {
         }
 ```
 Mysql：导入数据表结构
+```
 
 +-----------------+------------------+------+-----+---------+----------------+
 | Field           | Type             | Null | Key | Default | Extra          |
@@ -40,7 +41,7 @@ Mysql：导入数据表结构
 | XK_DATE         | datetime         | NO   |     | NULL    |                |
 | XC_DATE         | datetime         | NO   |     | NULL    |                |
 +-----------------+------------------+------+-----+---------+----------------+
-```
+
 mysql> create database cfda charset utf8;
 Query OK, 1 row affected (0.00 sec)
 mysql> use cfda
